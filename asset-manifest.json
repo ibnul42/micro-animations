@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/micro-animations/static/css/main.59a20b1a.css",
+    "main.js": "/micro-animations/static/js/main.c3a6fde9.js",
+    "index.html": "/micro-animations/index.html",
+    "main.59a20b1a.css.map": "/micro-animations/static/css/main.59a20b1a.css.map",
+    "main.c3a6fde9.js.map": "/micro-animations/static/js/main.c3a6fde9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.59a20b1a.css",
+    "static/js/main.c3a6fde9.js"
+  ]
+}
