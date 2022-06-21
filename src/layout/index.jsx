@@ -1,14 +1,15 @@
 import React from 'react';
 import Content from './content';
 import './layout.css';
+import { Link } from 'react-router-dom'
 
 function Layout() {
   return (
-    <div className='bg-amber-50 h-screen'>
+    <div className='h-screen'>
         <div className="h-[80px] bg-gray-100 flex justify-center items-center">
-            <h3 className="font-bold text-lg">All animation</h3>
+            <Link to='/' className="font-bold text-lg">All animation</Link>
         </div>
-        <div className="min-h-[calc(100%-80px)] bg-gray-900 text-white flex flex-col justify-between">
+        <div className="min-h-[calc(100%-80px)] flex flex-col justify-between">
             <div className="">
                 <Content />
             </div>
